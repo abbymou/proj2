@@ -9,6 +9,7 @@
 .demo-2 .sl-slider-wrapper {
 	width: 100%;
 	height: auto;
+	padding-bottom: 8%;
 	overflow: hidden;
 	position: relative;
 }
@@ -507,6 +508,18 @@
 		font-size: 33px;
 	}
 
+	.demo-1 .container-quiz h3 {
+		font-size: 15px;
+	}
+
+	.demo-1 .container-quiz {
+		height: 90px;
+	}
+
+	.demo-1 #quiz1 {
+		top: 300px;
+	}
+
 	.demo-2 h1 {
 		font-size: 25px;
 	}
@@ -525,13 +538,18 @@
 
 	.demo-2 .intro-wrapper {
 		padding: 1% 5%;
+		padding-bottom: 12%;
 	}
 
 	.demo-2 .sl-slider-wrapper {
 		height: auto;
 	}
 
-
+	.demo-2 .arrow {
+		width: 15px;
+		height: 15px;
+		bottom: 10%;
+	}
 
 
 }

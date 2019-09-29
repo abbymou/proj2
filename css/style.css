@@ -26,12 +26,48 @@ h5 {
 
 .intro-wrapper {
 	padding: 3% 20%;
+	padding-bottom: 20px;
 }
 
 .intro-p{
 	color: #000;
 	font-size: 18px;
 	font-family: serif;
+}
+
+/* Down Arrows */
+.arrow{
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
 }
 
 /* Slider Styling */
@@ -78,6 +114,28 @@ h3 {
 	font-weight: bold;
 }
 
+/* Quiz Styling */
+.container-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+#quiz1 {
+	position: relative;
+	margin: auto;
+	top: 350px;
+  width: 560px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+.container-quiz h3 {
+	color: #000;
+	font-size: 15px;
+}
 
 /* Main Slider */
 

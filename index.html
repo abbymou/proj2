@@ -8,8 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
 
-        <link rel="shortcut icon" href="../favicon.ico">
-		     <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" href="css/quiz-online.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/custom.css" />
 		    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
@@ -23,26 +22,32 @@
         <header class="intro">
           <h1>How the Impeachment Process Works</h1>
           <h5>As President Trump faces the threat of impeachment again, questions arise as to how the process works.</h5>
-          <br>
+          <br><br>
           <h4>What is Impeachment?</h4>
           <p class="intro-p">Impeachment was set forth in the Constitution to give Congress the power to remove a president from office before their term
           has ended. The Constitution cites specific actions for impeachment and removal from office. However, only two
-          presidents, Andrew Johnson (1868) and Bill Clinton (1998), have ever been impeached and neither were removed from office.</p>
+          presidents, Andrew Johnson (1868) and Bill Clinton (1998), have ever been impeached, and neither were removed from office.</p>
           <br>
           <h4>What Causes Impeachment?</h4>
           <p class="intro-p">According the Constitution, "treason, bribery, or other high crimes and misdemeanors" are impeachable offenses.
           High crimes and misdemeanors essentially means the abuse of power by a high-level public official. It does not necessarily have to
           be a violation of an ordinary criminal statute.</p>
           <br>
-          <h4>What are the Impeachment Process Steps?</h4>
-          <p class="intro-p">Congree has outlined specific guidelines for impeaching a sitting president. Use the guide below to understand the steps
-            involved in impeachment.</p>
+          <h4>What are the Steps of the Impeachment Process?</h4>
+          <!-- <p class="intro-p">Congree has outlined specific guidelines for impeaching a sitting president. Use the guide below to understand the steps
+            involved in impeachment.</p> -->
+            <a href="#link">
+            <div class="arrow">
+                  <span></span>
+                  <span></span>
+
+              </div></a>
         </header>
 
       </div>
       </div>
 
-        <div class="container demo-1">
+        <div class="container demo-1" id="link">
 
         <div id="slider" class="sl-slider-wrapper">
 
@@ -53,7 +58,7 @@
   							<div class="deco" data-icon=""><h3 id="number1">Step<br>One</h3></div>
   							<h2>An Impeachment Resolution</h2>
   							<blockquote><p>First, the Speaker of the House must direct special committees to investigate the proposed
-                impeachable offenses. These committees will present evidence to the US House Committee on the Judiciary (Judiciary Committee).</p><cite>Ralph Waldo Emerson</cite></blockquote>
+                impeachable offenses. These committees will present evidence to the US House Committee on the Judiciary (Judiciary Committee).</p></blockquote>
   						</div>
   					</div>
 
@@ -62,7 +67,7 @@
   							<div class="deco" data-icon=""><h3 id="number2">Step Two</h3></div>
   							<h2>Resolution Approval from Judiciary Committee</h2>
   							<blockquote><p>After reviewing cases from the special committees, a simple majority vote from the Judiciary committee
-                will approve the resolution to be sent to the House for a vote.</p><cite>Albert Schweitzer</cite></blockquote>
+                will approve the resolution to be sent to the House for a vote.</p></blockquote>
   						</div>
   					</div>
 
@@ -70,7 +75,8 @@
   						<div class="sl-slide-inner">
   							<div class="deco" data-icon=""><h3 id="number3">Step Three</h3></div>
   							<h2>House of Representatives Vote</h2>
-  							<blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+  							<blockquote><p>Once the vote reaches the House, a vote is held on one or more articles of impeachment. If a simple majority is reached,
+                then the president is impeached.</p></blockquote>
   						</div>
   					</div>
 
@@ -78,19 +84,25 @@
   						<div class="sl-slide-inner">
   							<div class="deco" data-icon=""><h3 id="number4">Step Four</h3></div>
   							<h2>Trial in the Senate</h2>
-  							<blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+  							<blockquote><p>Once the president has been impeached, a trial is held in the Senate to determine if the president committed a crime. The trial is presided
+                over by the Chief Justice of the Supreme Court, and members of the House serve as managers to present evidence during the trial. To convict the president
+                of the crime, the Senate would need a two-thirds majority.</p></blockquote>
   						</div>
   					</div>
 
   					<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
   						<div class="sl-slide-inner">
   							<div class="deco" data-icon=""><h3 id="number5">Pop Quiz</h3></div>
-  							<h2>Quiz</h2>
-  							<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+  							<!--<h2>Quiz</h2>
+  							<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having
+                  it processed for you.</p></blockquote> -->
+                  <div class="container-quiz">
+                      <div id="quiz1"></div>
+                  </div>
   						</div>
   					</div>
 
-  				</div><!-- /sl-slider -->
+  				</div>
 
   				<nav id="nav-arrows" class="nav-arrows">
   					<span class="nav-arrow-prev">Previous</span>
@@ -105,13 +117,14 @@
   					<span></span>
   				</nav>
 
-			</div><!-- /slider-wrapper -->
-
+			     </div>
         </div>
+
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+    <script src=js/quiz-storage.js></script>
 
     <script type="text/javascript" src="js/main.js"></script>
 

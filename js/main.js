@@ -1,5 +1,36 @@
 $(document).ready(function() {
 
+  $("#quiz1").dlxQuiz({
+      quizData: {
+          questions: [
+              {
+                  q:'Where does the impeachment process start?',
+                  a: "The House of Representatives",
+                  options: [
+                      "The House of Representatives",
+                      "The Senate"
+                  ]
+              },
+              {
+                  q: "What removes a President from office?",
+                  a: "A 2/3 conviction from Senate",
+                  options: [
+                      "A simple majority vote from the House",
+                      "A 2/3 conviction from Senate"
+                  ]
+              },
+              {
+                  q: "True or False: Only one president has ever been impeached.",
+                  a: "False",
+                  options: ["True", "False"]
+              }
+
+          ]
+      }
+  });
+
+  });
+
   var Page = (function() {
 
     var $navArrows = $( '#nav-arrows' ),
@@ -25,14 +56,12 @@ $(document).ready(function() {
 
           slitslider.next();
           return false;
-
         } );
 
         $navArrows.children( ':first' ).on( 'click', function() {
 
           slitslider.previous();
           return false;
-
         } );
 
         $nav.each( function( i ) {
@@ -45,16 +74,13 @@ $(document).ready(function() {
 
               $nav.removeClass( 'nav-dot-current' );
               $dot.addClass( 'nav-dot-current' );
-
             }
 
             slitslider.jump( i + 1 );
             return false;
 
           } );
-
         } );
-
       };
 
       return { init : init };
@@ -62,5 +88,3 @@ $(document).ready(function() {
   })();
 
   Page.init();
-
-});
