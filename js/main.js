@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  $('.parallax-window').parallax({imageSrc: '../images/graphic.png'});
+
+  $('.tooltip').tooltipster({
+    
+  });
+
 
   $("#quiz1").dlxQuiz({
       quizData: {
@@ -28,6 +34,7 @@ $(document).ready(function() {
           ]
       }
   });
+  /* $("#number1"). */
 
   });
 

@@ -1,3 +1,23 @@
+/* Parrallax */
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    position: -10px 0px;
+}
+
+/* NAV */
+.nav {
+	border-bottom: 1px #d3d3d3 solid;
+	box-shadow: 0px 2px 5px #d3d3d3;
+	padding: 5px;
+	text-align: right;
+	padding-right: 5%;
+}
+
+a:hover {
+	color: #4F94CD;
+}
+
 /*Intro Page */
 h1 {
 	font-size: 50px;
@@ -14,6 +34,34 @@ h5 {
 	font-style: italic;
 	font-family: serif;
 }
+
+/* Images */
+
+.graphs {
+
+}
+
+.intro img {
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+#senate {
+  float:left;
+  padding: 0 5% 5% 5%;
+}
+
+#house {
+  float: right;
+  padding: 0 5% 5% 5%;
+}
+
+.tooltip_templates {
+  display: none;
+}
+
+/* end */
 
 .intro {
 	height: 100%;
@@ -279,13 +327,6 @@ html { height: 100%; }
 	margin: 0;
 }
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     background: #fff;
@@ -308,13 +349,6 @@ a {
 .container.demo-1 {
 	height: 100%;
 	position: absolute;
-}
-
-.clr {
-	clear: both;
-	padding: 0;
-	height: 0;
-	margin: 0;
 }
 
 .main {

@@ -1,3 +1,5 @@
+/* Setup */
+
 .demo-1 .sl-slider-wrapper {
 	position: absolute;
 	width: 100%;
@@ -197,21 +199,6 @@
 	position: relative;
 }
 
-/* .demo-1 .sl-slide blockquote p:before {
-	color: #f0f0f0;
-	color: rgba(244,244,244,0.65);
-	font-family: "Bookman Old Style", Bookman, Garamond, serif;
-	position: absolute;
-	line-height: 60px;
-	width: 75px;
-	height: 75px;
-	font-size: 200px;
-	z-index: -1;
-	left: -80px;
-	top: 35px;
-	content: '\201C';
-} */
-
 .demo-1 .sl-slide blockquote cite {
 	font-size: 10px;
 	padding-top: 10px;
@@ -250,11 +237,6 @@
 	background: #1E436A;
 }
 
-/* .demo-1 .bg-3 .deco {
-	border-color: #fff;
-	border-color: rgba(255,255,255,0.5);
-} */
-
 .demo-1 .bg-3 [data-icon]:after {
 	color: #fff;
 	text-shadow: 0 0 1px #fff;
@@ -275,10 +257,6 @@
 .demo-1 .bg-4 .sl-content-slice {
 	background: #173356;
 }
-
-/* .demo-1 .bg-4 .deco {
-	border-color: #379eaa;
-} */
 
 .demo-1 .bg-4 [data-icon]:after {
 	text-shadow: 0 0 1px #277d87;
@@ -301,20 +279,10 @@
 	background: #112A48;
 }
 
-/* .demo-1 .bg-5 .deco {
-	border-color: #ECD82C;
-} */
-
 .demo-1 .bg-5 .deco:after {
 	color: #000;
 	text-shadow: 0 0 1px #000;
 }
-
-/* .demo-1 .bg-5 h2,
-.demo-1 .bg-5 blockquote{
-	color: #000;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-} */
 
 .demo-1 .bg-5 blockquote:before {
 	color: #ecd82c;
