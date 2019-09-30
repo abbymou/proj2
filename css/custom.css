@@ -500,6 +500,10 @@
 		font-size: 13px;
 	}
 
+	.demo-2 .graph-title h6 {
+		font-size: 10px;
+	}
+
 	.demo-2 .intro-p{
 		font-size: 12px;
 	}
@@ -513,10 +517,12 @@
 		height: auto;
 	}
 
-	.demo-2 .arrow {
-		width: 15px;
-		height: 15px;
-		bottom: 10%;
+	.demo-2 .arrow span {
+		width: 20px;
+		height: 20px;
+		bottom: 4%;
+		border-bottom: 3px solid #06A8FF;
+    border-right: 3px solid #06A8FF;
 	}
 
 

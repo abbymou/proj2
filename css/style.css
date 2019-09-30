@@ -36,9 +36,8 @@ h5 {
 }
 
 /* Images */
-
 .graphs {
-
+  padding-bottom: 10%;
 }
 
 .intro img {
@@ -49,18 +48,17 @@ h5 {
 
 #senate {
   float:left;
-  padding: 0 5% 5% 5%;
+  padding: 0 4%;
 }
 
 #house {
   float: right;
-  padding: 0 5% 5% 5%;
+  padding: 0 4%;
 }
 
 .tooltip_templates {
   display: none;
 }
-
 /* end */
 
 .intro {
@@ -86,7 +84,7 @@ h5 {
 /* Down Arrows */
 .arrow{
     position: absolute;
-    bottom: 8%;
+    bottom: 4%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
